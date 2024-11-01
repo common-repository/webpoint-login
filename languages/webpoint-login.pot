@@ -1,0 +1,392 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WebPoint Login\n"
+"POT-Creation-Date: 2018-11-09 11:21+0200\n"
+"PO-Revision-Date: 2017-08-07 16:34+0300\n"
+"Last-Translator: Дмитрий Денисов <admin@dmitriydenisov.com>\n"
+"Language-Team: Дмитрий Денисов <admin@dmitriydenisov.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: webpoint-login.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: templates/login-form.php:13
+msgid "You are logged out. Do you want to log in again?"
+msgstr ""
+
+#: templates/login-form.php:19
+#, php-format
+msgid ""
+"You have successfully registered on the site %s. Now you can log in using "
+"your username and password."
+msgstr ""
+
+#: templates/login-form.php:25
+msgid "You have been sent an email with a link to reset your password."
+msgstr ""
+
+#: templates/login-form.php:31
+msgid ""
+"Your password has been changed. You can log in using the new password."
+msgstr ""
+
+#: templates/login-form.php:37 templates/register-form.php:14
+msgid "Username"
+msgstr ""
+
+#: templates/login-form.php:38 templates/register-form.php:24
+msgid "Password"
+msgstr ""
+
+#: templates/login-form.php:39
+msgid "Remember me"
+msgstr ""
+
+#: templates/login-form.php:40 webpoint-login.php:329
+msgid "Log in"
+msgstr ""
+
+#: templates/login-form.php:48 webpoint-login.php:337
+msgid "Forgot your password?"
+msgstr ""
+
+#: templates/password-lost-form.php:16
+msgid "Enter your username or email:"
+msgstr ""
+
+#: templates/password-lost-form.php:17
+msgid "Username or email"
+msgstr ""
+
+#: templates/password-lost-form.php:25
+msgid "Submit"
+msgstr ""
+
+#: templates/password-reset-form.php:24
+msgid "Enter a new password"
+msgstr ""
+
+#: templates/password-reset-form.php:29 templates/register-form.php:29
+msgid "Confirm password"
+msgstr ""
+
+#: templates/password-reset-form.php:33
+msgid ""
+"To create a strong password, use uppercase and lowercase letters, numbers "
+"and symbols like ! \" ? $ % ^ & )."
+msgstr ""
+
+#: templates/password-reset-form.php:36 templates/register-form.php:34
+msgid "Required fields"
+msgstr ""
+
+#: templates/password-reset-form.php:44
+msgid "Save"
+msgstr ""
+
+#: templates/register-form.php:19
+msgid "Email"
+msgstr ""
+
+#: templates/register-form.php:42 webpoint-login.php:333
+msgid "Sign up"
+msgstr ""
+
+#: webpoint-login.php:341
+msgid "Password reset"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: webpoint-login.php:400 webpoint-login.php:401
+msgid "WebPoint Login"
+msgstr ""
+
+#: webpoint-login.php:417
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: webpoint-login.php:422 webpoint-login.php:451
+msgid "WebPoint Login Settings"
+msgstr ""
+
+#: webpoint-login.php:468
+msgid "reCAPTCHA Site Key"
+msgstr ""
+
+#: webpoint-login.php:477
+msgid "Enter the Google reCAPTCHA Site Key."
+msgstr ""
+
+#: webpoint-login.php:484
+msgid "reCAPTCHA Secret Key"
+msgstr ""
+
+#: webpoint-login.php:493
+msgid "Enter the Google reCAPTCHA Secret Key."
+msgstr ""
+
+#: webpoint-login.php:619 webpoint-login.php:1976
+msgid "reCAPTCHA Error. Check the box \"I'm not a robot\" and try again."
+msgstr ""
+
+#: webpoint-login.php:898 webpoint-login.php:1990
+msgid "User registration is disabled."
+msgstr ""
+
+#: webpoint-login.php:968
+#, php-format
+msgid "To restore access to your account, click on the %slink%s."
+msgstr ""
+
+#: webpoint-login.php:1148
+msgid "Google reCAPTCHA Loading Error."
+msgstr ""
+
+#: webpoint-login.php:1149
+msgid "Check the box \"I'm not a robot\" and try again."
+msgstr ""
+
+#: webpoint-login.php:1150
+msgid "Enter password"
+msgstr ""
+
+#: webpoint-login.php:1151
+msgid "Passwords do not match!"
+msgstr ""
+
+#: webpoint-login.php:1152
+msgid "Passwords match"
+msgstr ""
+
+#: webpoint-login.php:1153
+msgid "Password is too short"
+msgstr ""
+
+#: webpoint-login.php:1154
+msgctxt "password"
+msgid "Weak!"
+msgstr ""
+
+#: webpoint-login.php:1155
+msgctxt "password"
+msgid "Average!"
+msgstr ""
+
+#: webpoint-login.php:1156
+msgctxt "password"
+msgid "Strong!"
+msgstr ""
+
+#: webpoint-login.php:1157
+msgctxt "password"
+msgid "Secure!"
+msgstr ""
+
+#: webpoint-login.php:1158
+msgid "Username may not be longer than 60 characters."
+msgstr ""
+
+#: webpoint-login.php:1159
+msgid "Username should not start with a number."
+msgstr ""
+
+#: webpoint-login.php:1160
+msgid "Username should not start with a hyphen."
+msgstr ""
+
+#: webpoint-login.php:1161
+msgid "Username should not start with an underscore."
+msgstr ""
+
+#: webpoint-login.php:1162
+msgid "Username should not contain uppercase letters."
+msgstr ""
+
+#: webpoint-login.php:1163
+msgid "Username should not end with a hyphen."
+msgstr ""
+
+#: webpoint-login.php:1164
+msgid "Username should not end with underscore."
+msgstr ""
+
+#: webpoint-login.php:1165
+msgid "Username should not contain double hyphens."
+msgstr ""
+
+#: webpoint-login.php:1166
+msgid "Username should not contain double underscores."
+msgstr ""
+
+#: webpoint-login.php:1167
+msgid "Username should not contain underscore after the hyphen."
+msgstr ""
+
+#: webpoint-login.php:1168
+msgid "Username should not contain hyphen after the underscore."
+msgstr ""
+
+#: webpoint-login.php:1169
+msgctxt "js login error"
+msgid "Invalid username"
+msgstr ""
+
+#: webpoint-login.php:1170 webpoint-login.php:1984
+msgid ""
+"Username can contain lowercase letters of the Latin alphabet (a-z), "
+"numbers (0-9), single hyphens (-) and underscores (_). It should start "
+"with a letter, end with a letter or number and may not be longer than 60 "
+"characters."
+msgstr ""
+
+#: webpoint-login.php:1171 webpoint-login.php:1980
+msgid "Email address cannot be empty."
+msgstr ""
+
+#: webpoint-login.php:1172 webpoint-login.php:1985
+msgid "Incorrect email address."
+msgstr ""
+
+#: webpoint-login.php:1173 webpoint-login.php:1979
+msgid "Username cannot be empty."
+msgstr ""
+
+#: webpoint-login.php:1196
+msgid "Template file does not set!"
+msgstr ""
+
+#: webpoint-login.php:1204
+msgid "Template file does not exist!"
+msgstr ""
+
+#: webpoint-login.php:1564
+msgid "Hello!"
+msgstr ""
+
+#: webpoint-login.php:1565
+#, php-format
+msgid "Someone has requested a password reset for the following account: %s"
+msgstr ""
+
+#: webpoint-login.php:1566
+msgid ""
+"If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: webpoint-login.php:1567
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: webpoint-login.php:1569 webpoint-login.php:1733
+#, php-format
+msgid "Sincerely, Administration %s"
+msgstr ""
+
+#: webpoint-login.php:1727
+#, php-format
+msgid "Registration on the site %s"
+msgstr ""
+
+#: webpoint-login.php:1731
+#, php-format
+msgid "You have successfully registered on the site %s"
+msgstr ""
+
+#: webpoint-login.php:1732
+#, php-format
+msgid "Now you can %slog in%s using your username and password."
+msgstr ""
+
+#: webpoint-login.php:1830
+msgid "Loading Google reCAPTCHA"
+msgstr ""
+
+#: webpoint-login.php:1930
+#, php-format
+msgid "You are already authorized on the site. Go to the %scontrol panel%s."
+msgstr ""
+
+#: webpoint-login.php:1964
+msgid "Unknown error. Notify the administrator and try again later."
+msgstr ""
+
+#: webpoint-login.php:1974 webpoint-login.php:1975
+msgid "Request error. Please refresh the page and try again."
+msgstr ""
+
+#: webpoint-login.php:1977
+msgid "Invalid username."
+msgstr ""
+
+#: webpoint-login.php:1978
+#, php-format
+msgid "Incorrect password. %sForgot your password?%s"
+msgstr ""
+
+#: webpoint-login.php:1981
+msgid "Password cannot be empty."
+msgstr ""
+
+#: webpoint-login.php:1982
+msgid "Username already exists."
+msgstr ""
+
+#: webpoint-login.php:1983
+msgid "Email already exists."
+msgstr ""
+
+#: webpoint-login.php:1986
+msgid "Username must be between 1 and 60 characters."
+msgstr ""
+
+#: webpoint-login.php:1987
+msgid "Email address should not contain more than 100 characters."
+msgstr ""
+
+#: webpoint-login.php:1988
+msgid "Password must be between 8 and 64 characters."
+msgstr ""
+
+#: webpoint-login.php:1989
+msgid "Passwords do not match."
+msgstr ""
+
+#: webpoint-login.php:1991
+msgid "Registration error. Please refresh the page and try again."
+msgstr ""
+
+#: webpoint-login.php:1992 webpoint-login.php:1993
+#, php-format
+msgid "Invalid password reset link. %sRequest a new link?%s"
+msgstr ""
+
+#: webpoint-login.php:1994
+msgid "Incorrect username or email."
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://dmitriydenisov.com/webpoint-login/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Authorization, registration and password reset with protection from robots."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Dmitriy Denisov"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://dmitriydenisov.com"
+msgstr ""
